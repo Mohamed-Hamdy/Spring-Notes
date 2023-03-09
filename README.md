@@ -13,6 +13,8 @@ This Repo Contain Spring framework important Notes
   •	Stater POMS (spring-boot-starter-web) الحته دى بخصوص ال jars files هوا دخل ملفات كتير تحت dependency <br> 
 <br>Note: spring-boot-starter-web contain the most important jars that belongs to my application so it should be in the first tag (parent tag) in pox.xml file
 <br>Spring Initializer screenshot:
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/spring%20init.png" alt="Spring boot Initializer"></p>
+
 
 ## Important Annotations:
 1.	@Autowired  <br>
@@ -28,26 +30,43 @@ This Repo Contain Spring framework important Notes
       ii.	@Service      -- used in Business layer
       iii.	@Repository -- used in presentation layer
 
+ <p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/arc%201.png" alt="@Component  Arc"></p><br>
+ 
+## Spring Boot Layers
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/arc%202.png" alt="@Component  Arc"></p><br>
+
+## Spring Boot flow Architecture
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/arc%203.png" alt="@Component  Arc" 
+style="background-color:white;" >
+</p>
 4.	@SpringBootApplication Equivalent to<br>
   •	ComponentScan<br> 
   •	@Configuration<br>
   •	@EnableAutoConfiguration<br>
-
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/annotations%201.png" alt="@Component  Arc"></p><br>
 ## Create DB Connection :<br>
 Step 1 - Add dependency for your database connector to pom.xml<br>
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/DB%20connection%201.png" alt="@Component  Arc"></p><br>
 
 Step 2 - Configure your connection to Your Database
  
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/DB%20connection%202.png" alt="@Component  Arc"></p><br>
 
 ## How to bulid Restful web services using GET Request
 one of the main annotations in Spring MVC: @RequestMapping. Simply put, the annotation is used to map web requests to Spring Controller methods.
 Ways to use RequestMapping  and send values<br>
 1.	GET without passing value 
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/request%20mapping%201.png" alt="@Component  Arc"></p><br>
+
 2.	GET with passing value<br>
       a.	Passing in path<br>
       b.	Passing using @RequestParam<br>
+<p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/request%20mapping%202.png" alt="@Component  Arc"></p><br>
+
  
 3.	Get put make value not required
- 
+ <p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/request%20mapping%203.png" alt="@Component  Arc"></p><br>
+
 4.	Get put make the value is optional
- 
+ <p align="center"><img src="https://github.com/Mohamed-Hamdy/Spring-Notes/blob/Spring-Boot-Notes/images/request%20mapping%204.png" alt="@Component  Arc"></p><br>
+
