@@ -23,13 +23,13 @@ This Repo Contain Spring framework important Notes
 3.	@Component<br>
   •	Used in Class Level<br>
   •	Used for Register and configure spring beans into spring container<br>
-@Component tag  is parent for 3 another annotations<br>
-      i.	@Controller -- used in presentation layer (control http requests and responses)  <br>
-      ii.	@Service      -- used in Business layer<br>
+  ### @Component tag  is parent for 3 another annotations
+      i.	@Controller -- used in presentation layer (control http requests and responses) 
+      ii.	@Service      -- used in Business layer
       iii.	@Repository -- used in presentation layer
-<br>
+
 4.	@SpringBootApplication Equivalent to<br>
-  •	ComponentScan    
+  •	ComponentScan<br> 
   •	@Configuration<br>
   •	@EnableAutoConfiguration<br>
 
@@ -39,28 +39,15 @@ Step 1 - Add dependency for your database connector to pom.xml<br>
 Step 2 - Configure your connection to Your Database
  
 
-
-
-
-
-
-
-
-
-
-
-
-How to bulid Restful web services using GET Request
+## How to bulid Restful web services using GET Request
 one of the main annotations in Spring MVC: @RequestMapping. Simply put, the annotation is used to map web requests to Spring Controller methods.
-Ways to use RequestMapping  and send values
-1.	GET without passing value
- 
-2.	GET with passing value
-a.	Passing in path
-b.	Passing using @RequestParam
+Ways to use RequestMapping  and send values<br>
+1.	GET without passing value 
+2.	GET with passing value<br>
+      a.	Passing in path<br>
+      b.	Passing using @RequestParam<br>
  
 3.	Get put make value not required
  
 4.	Get put make the value is optional
  
-X`x
